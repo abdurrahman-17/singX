@@ -1,0 +1,1682 @@
+{
+  "AED": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "fieldType": "string",
+      "type" : "Individual",
+      "options": [
+        "First Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Individual",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Id Type",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [
+        "National ID"
+      ],
+      "errorLabel" : "Receiver Id Type is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Id Number",
+      "type" : "Individual",
+      "fieldType": "string",
+      "errorLabel" : "Receiver Id Number is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Expiry Date",
+      "type" : "Individual",
+      "fieldType": "string",
+      "errorLabel" : "Receiver Expiry Date is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Individual",
+      "fieldType": "string",
+      "helpText": "For a phone number in Vietnam select the country code +84 followed by the 2 or 3 digit area code. The phone number will be 9 digits for mobiles and 10 digits for landlines. If you are unsure of this number please check with your receiver.",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+    },
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Individual",
+      "fieldType": "string",
+      "helpText": "Account number must be 8 numeric digits. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+  ],
+  "BDT": [
+
+    {
+      "fieldLabel": "Receiver Name",
+      "fieldType": "string",
+      "type" : "Any",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Type",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [
+        "Bank",
+        "E-Wallet"
+      ],
+      "errorLabel" : "Receiver Account Type is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+    },
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 8 numeric digits. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+  ],
+  "CAD": [
+
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country Of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver City",
+      "type" : "Any",
+      "fieldType": "string",
+      "errorLabel" : "Receiver City is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence State",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Residence State is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Postal Code",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The Postal code consists of 6 alphanumeric characters, please remove all hyphens, spaces or special characters when entering this code. If you are unsure of this number, please check online or with your receiver.",
+      "errorLabel" : "Residence Postal Code is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Financial Institution Number",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The Financial Institution Number, or Bank Code, is a 3 digit number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Financial Institution Number is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Branch Transit Number",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The Branch Transit Number, or Branch Code, is a 5 digit number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Branch Transit Number is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver BIC/SWIFT",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "SWIFT/BIC: A SWIFT code, also known as BIC code, consists of 8-11 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Receiver BIC/SWIFT is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 7 to 35 numeric digits. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+  ],
+  "CNY": [
+
+    {
+      "fieldLabel": "Receiver Name",
+      "fieldType": "string",
+      "type" : "Any",
+      "options": [
+        "First Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+
+
+    }
+  ,
+
+    {
+      "fieldLabel": "Receiver Debit Card Number",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Card number should be 16-19 digits. Please key in only numeric characters. If you are unsure of this number, please check with your receiver.",
+      "errorLabel" : "Receiver Debit Card Number is required"
+
+    }
+  ,
+
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The phone number will be 11 digits starting with 1. If you are unsure of this number please check with your receiver.",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+
+    }
+
+  ],
+  "EUR": [
+
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+
+    }
+
+  ,
+    {
+      "fieldLabel": "Receiver Nationality",
+      "fieldType": "select",
+      "type" : "Individual",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country Of Corporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company name is required"
+    },
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+
+
+    }
+  ,
+
+    {
+      "fieldLabel": "Receiver City",
+      "type" : "Any",
+      "fieldType": "string",
+      "errorLabel" : "Receiver City is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The IBAN consists of 15 to 34 alphanumeric characters, please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver BIC/SWIFT",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "SWIFT/BIC: A SWIFT code, also known as BIC code, consists of 8-11 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Receiver BIC/SWIFT is required"
+
+    }
+  ],
+  "GBP": [
+
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "fieldType": "string",
+      "type" : "Individual",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+
+    {
+      "fieldLabel": "Receiver Sort Code",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The sort code or bank code is a six-digit number, please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check with your local bank branch before entering the number.",
+      "errorLabel" : "Receiver Sort Code is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 8 numeric digits. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+
+  ],
+  "HKD": [
+    {
+      "fieldLabel": "Receiver Name",
+      "fieldType": "string",
+      "type" : "Any",
+      "options": [
+        "First Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+
+
+    }
+  ,
+
+    {
+      "fieldLabel": "Bank Code",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The bank code is a six-digit number, please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check with your local bank branch before entering the number.",
+      "errorLabel" : "Bank Code is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Branch Code",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The branch code is a six-digit number, please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check with your local bank branch before entering the number.",
+      "errorLabel" : "Branch Code is required"
+       }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 8 numeric digits. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+
+  ],
+  "IDR": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    },
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+
+    }
+  ,
+
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The phone number will be 11 digits starting with 1. If you are unsure of this number please check with your receiver.",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+    },
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 8 numeric digits. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+
+  ],
+  "INR": [
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Any",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+
+
+    }
+  ,
+    {
+      "fieldLabel": "Bank IFSC Code",
+      "type" : "Any",
+      "fieldType": "string",
+      "errorLabel" : "Bank IFSC Code is required"
+
+    }
+  ,
+
+    {
+      "fieldLabel": "Receiver Account Type",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [
+        "NRE",
+        "NRO",
+        "Savings",
+        "Current"
+      ],
+      "errorLabel" : "Receiver Account Type is required"
+
+    },
+
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 7 to 20 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+
+  ],
+  "JPY": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country Of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver City",
+      "type" : "Any",
+      "fieldType": "string",
+      "errorLabel" : "Receiver City is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver BIC/SWIFT",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "SWIFT/BIC: A SWIFT code, also known as BIC code, consists of 8-11 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Receiver BIC/SWIFT is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 7 to 20 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+
+  ],
+  "KRW": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country Of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Receiver Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "For a phone number in South Korea enter the country code +82 followed by the 1 or 2 digit area code. If you are calling a mobile phone, enter the country code +82 followed by the mobile number. If you are not sure of the area code, please refer to this list: https://countrycode.org/southkorea",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+
+    },
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 7 to 20 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+
+    }
+
+  ],
+  "LKR": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    },
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country Of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The Phone number will be 11 digits starting with 1. if you are unsure of this number please check with your receiver.",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+    },
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 7 to 20 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+
+  ],
+  "MYR": [
+    {
+      "fieldLabel": "Receiver Nationality",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Any",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The phone number will be 8 to 12 digits. If you are unsure of this number please check with your receiver.",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+
+    },
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 7 to 20 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+
+  ],
+  "NPR": [
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Any",
+      "fieldType": "string",
+      "options": [
+        "Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "The phone number will be 8 to 12 digits. If you are unsure of this number please check with your receiver.",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+
+    },
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 7 to 20 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+  ],
+  "NZD": [
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+
+    }
+  ,
+
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Any",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver City",
+      "type" : "Any",
+      "fieldType": "string",
+      "errorLabel" : "Receiver City is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Receiver BIC/SWIFT",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "SWIFT/BIC: A SWIFT code, also known as BIC code, consists of 8-11 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Receiver BIC/SWIFT is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 1 to 16 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+
+  ],
+  "SGD": [
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Any",
+      "fieldType": "string",
+      "options": [
+        "Name"
+
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 1 to 16 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+
+  ],
+  "THB": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    },
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country Of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "For a landline number, enter the area code (without the “0”), followed by the number (8 digits). For a mobile number, enter the area code (without the “0”), followed by the number (9 digits)",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+
+    },
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be 8 to 16 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+
+    }
+
+  ],
+  "USD": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual",
+        "Business"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    },
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    },
+    {
+      "fieldLabel": "Country Of Incorporation",
+      "type" : "Business",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Country Of Incorporation is required"
+    },
+    {
+      "fieldLabel": "Receiver Company Name",
+      "type" : "Business",
+      "fieldType": "string",
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Company Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver City",
+      "type" : "Any",
+      "fieldType": "string",
+      "errorLabel" : "Receiver City is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver BIC/SWIFT",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "SWIFT/BIC: A SWIFT code, also known as BIC code, consists of 8-11 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver’s local bank branch.",
+      "errorLabel" : "Receiver BIC/SWIFT is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+  ],
+  "VND": [
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Any",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Middle Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "PhoneNumber",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "For a phone number in Vietnam select the country code +84 followed by the 2 or 3 digit area code. The phone number will be 9 digits for mobiles and 10 digits for landlines. If you are unsure of this number please check with your receiver.",
+      "options": [
+        "+60 Malaysia",
+        "+94 Sri Lanka",
+        "+65 Singapore",
+        "+62 Indonesia",
+        "+84 Vietnam",
+        "+63 Philippines",
+        "+66 Thailand",
+        "+82 South Korea",
+        "+86 China",
+        "+91 India",
+        "+977 Nepal",
+        "+971 United Arab Emirates"
+      ],
+      "errorLabel" : "PhoneNumber is required"
+    }
+  ,
+    {
+      "fieldLabel": "Relationship With Sender",
+      "type" : "Any",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Relationship With Sender is required"
+    },
+
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Any",
+      "fieldType": "string",
+      "helpText": "Account number must be alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+  ],
+  "ZAR": [
+    {
+      "fieldLabel": "Receiver Type",
+      "fieldType": "select",
+      "options": [
+        "Individual"
+      ],
+      "errorLabel" : "Receiver Type is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Nationality",
+      "type" : "Individual",
+      "fieldType": "select",
+      "options": [],
+      "errorLabel" : "Receiver Nationality is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Name",
+      "type" : "Individual",
+      "fieldType": "string",
+      "options": [
+        "First Name",
+        "Last Name"
+      ],
+      "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+      "errorLabel" : "Receiver Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Residence Address",
+      "type" : "Individual",
+      "fieldType": "string",
+      "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+      "errorLabel" : "Residence Address is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Bank Name",
+      "type" : "Individual",
+      "fieldType": "select",
+      "errorLabel" : "Receiver Bank Name is required"
+    }
+  ,
+    {
+      "fieldLabel": "Receiver Account Number / IBAN",
+      "type" : "Individual",
+      "fieldType": "string",
+      "helpText": "Account number must be alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch",
+      "errorLabel" : "Receiver Account Number / IBAN is required"
+    }
+  ],
+  "PHP": [
+    {
+      "bank":[
+        {
+          "fieldLabel": "Receiver Nationality",
+          "fieldType": "select",
+          "options": [],
+          "errorLabel" : "Receiver Nationality is required"
+        }
+      ,
+        {
+          "fieldLabel": "Receiver Name",
+          "fieldType": "string",
+          "options": [
+            "Name"
+
+          ],
+          "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+          "errorLabel" : "Receiver Name is required"
+
+        }
+      ,{
+          "fieldLabel": "Residence Address",
+          "fieldType": "string",
+          "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+          "errorLabel" : "Residence Address is required"
+
+
+        }
+      ,
+
+        {
+          "fieldLabel": "Receiver Bank Name",
+          "fieldType": "select",
+          "options": [],
+          "errorLabel" : "Receiver Bank Name is required"
+
+
+        },
+        {
+          "fieldLabel": "PhoneNumber",
+          "fieldType": "string",
+          "helpText":  "The Phone number will be 11 digits starting with 1. if you are unsure of this number please check with your receiver.",
+          "options": [
+            "+60 Malaysia",
+            "+94 Sri Lanka",
+            "+65 Singapore",
+            "+62 Indonesia",
+            "+84 Vietnam",
+            "+63 Philippines",
+            "+66 Thailand",
+            "+82 South Korea",
+            "+86 China",
+            "+91 India",
+            "+977 Nepal",
+            "+971 United Arab Emirates"
+          ],
+          "errorLabel" : "PhoneNumber is required"
+        },
+        {
+          "fieldLabel": "Relationship With Sender",
+          "fieldType": "select",
+          "options": [],
+          "errorLabel" : "Relationship With Sender is required"
+
+        },
+        {
+          "fieldLabel": "Receiver Account Number / IBAN",
+          "fieldType": "string",
+          "helpText": "Account number must be 1 to 16 alphanumeric characters. Please remove all hyphens, spaces or special characters when entering this number. If you are unsure of this number, please check online or with your receiver's local bank branch.",
+          "errorLabel" : "Receiver Account Number / IBAN is required"
+
+
+        }
+      ],
+      "cash":[
+        {
+          "fieldLabel": "Receiver Name",
+          "fieldType": "string",
+          "options": [
+            "Name"
+
+          ],
+          "helpText": "Name cannot contain any special characters.Please enter only alphabets",
+          "errorLabel" : "Receiver Name is required"
+
+        }
+      ,{
+          "fieldLabel": "Residence Address",
+          "fieldType": "string",
+          "helpText": "Address cannot be more than 185 characters. Only digits,alphabets,-,/ and spaces are allowed",
+          "errorLabel" : "Residence Address is required"
+
+
+        }
+      ,
+
+        {
+          "fieldLabel": "Receiver Pay-Out Partner",
+          "fieldType": "select",
+          "options": [],
+          "errorLabel" : "Receiver Pay-Out Partner is required"
+
+
+        },
+        {
+          "fieldLabel": "PhoneNumber",
+          "fieldType": "string",
+          "helpText":  "The Phone number will be 11 digits starting with 1. if you are unsure of this number please check with your receiver.",
+          "options": [
+            "+60 Malaysia",
+            "+94 Sri Lanka",
+            "+65 Singapore",
+            "+62 Indonesia",
+            "+84 Vietnam",
+            "+63 Philippines",
+            "+66 Thailand",
+            "+82 South Korea",
+            "+86 China",
+            "+91 India",
+            "+977 Nepal",
+            "+971 United Arab Emirates"
+          ],
+          "errorLabel" : "PhoneNumber is required"
+        },
+        {
+          "fieldLabel": "Relationship With Sender",
+          "fieldType": "select",
+          "options": [],
+          "errorLabel" : "Relationship With Sender is required"
+
+        }
+      ]
+    }
+  ]
+}
+

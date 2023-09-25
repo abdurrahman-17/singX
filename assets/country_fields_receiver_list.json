@@ -1,0 +1,358 @@
+{
+  "AED": [
+    {
+      "type": "Individual",
+      "options": [
+        "Receiver Name",
+        "Receiver Address",
+        "Receiver Contact Number",
+        "Receiver Bank Name & IBAN",
+        "Receiver ID Details"
+      ]
+    }
+  ],
+  "BDT": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Account number",
+        "Account Type",
+        "Relationship"
+      ]
+    }
+  ],
+  "CAD": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Nationality",
+        "Address",
+        "BIC/SWIFT code",
+        "Financial Institution Number (3 digits)",
+        "Branch Transit Number (5 digits)",
+        "Account number"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Country of Incorporation",
+        "Address",
+        "BIC/SWIFT code",
+        "Financial Institution Number (3 digits)",
+        "Branch Transit Number (5 digits)",
+        "Account number"
+      ]
+    }
+  ],
+  "CNY": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Bank Name",
+        "Debit Card Number",
+        "Phone Number"
+      ]
+    }
+  ],
+  "EUR": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Nationality",
+        "Address",
+        "IBAN",
+        "BIC/SWIFT code"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Country of Incorporation",
+        "Address",
+        "IBAN",
+        "BIC/SWIFT code"
+      ]
+    }
+  ],
+  "GBP": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Sort code",
+        "Nationality",
+        "Account number"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Address",
+        "Sort code",
+        "Country of Incorporation",
+        "Account number"
+      ]
+    }
+  ],
+  "HKD": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Bank Code",
+        "Branch Code",
+        "Account Number"
+      ]
+    }
+  ],
+  "IDR": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Bank Name",
+        "Account Number",
+        "Nationality",
+        "Phone no"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Address",
+        "Bank Name",
+        "Account Number",
+        "Nationality",
+        "Phone no"
+      ]
+    }
+  ],
+  "INR": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "IFSC code",
+        "Account number",
+        "Account Type"
+      ]
+    }
+  ],
+  "JPY": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Phone Number",
+        "Nationality",
+        "BIC/SWIFT Code",
+        "Account Number"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Address",
+        "Phone Number",
+        "Nationality",
+        "BIC/SWIFT Code",
+        "Account Number"
+      ]
+    }
+  ],
+  "KRW": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Phone Number",
+        "Nationality",
+        "Bank Name",
+        "Account Number"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Company Name",
+        "Address",
+        "Phone Number",
+        "Nationality",
+        "Bank Name",
+        "Account Number"
+      ]
+    }
+  ],
+  "LKR": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Nationality",
+        "Phone Number",
+        "Bank Name",
+        "Account Number"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Address",
+        "Nationality",
+        "Phone Number",
+        "Bank Name",
+        "Account Number"
+      ]
+    }
+  ],
+  "MYR": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Phone Number",
+        "Bank Name",
+        "Account Number"
+      ]
+    }
+  ],
+  "NPR": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Phone Number",
+        "Nationality",
+        "Bank Name",
+        "Branch Name",
+        "Account Number"
+      ]
+    }
+  ],
+  "NZD": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "City",
+        "BIC/SWIFT code",
+        "Account number"
+      ]
+    }
+  ],
+  "SGD": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Bank Name",
+        "Account Number"
+      ]
+    }
+  ],
+  "THB": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Phone Number",
+        "Nationality",
+        "Bank Name",
+        "Account Number"
+      ]
+    }
+  ],
+  "USD": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "BIC/SWIFT code",
+        "Nationality",
+        "Account number"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Address",
+        "BIC/SWIFT code",
+        "Country of Incorporation",
+        "Account number"
+      ]
+    }
+  ],
+  "VND": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Bank Name",
+        "Account Number",
+        "Phone no"
+      ]
+    }
+  ],
+  "ZAR": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Branch Code",
+        "Bank Name",
+        "Account Number"
+      ]
+    }
+  ],
+  "PHP": [
+    {
+      "type": "Individual",
+      "options": [
+        "Name",
+        "Address",
+        "Bank Name",
+        "Account Number",
+        "Nationality",
+        "Phone no"
+      ]
+    },
+    {
+      "type": "Business",
+      "options": [
+        "Name",
+        "Address",
+        "Receiver Phone no",
+        "Pay-out partner nearest to your beneficiary"
+      ]
+    }
+  ]
+}
